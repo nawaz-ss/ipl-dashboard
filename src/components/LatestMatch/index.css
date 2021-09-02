@@ -1,0 +1,59 @@
+.latest-match-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1e293b;
+  border: none;
+  border-radius: 5px;
+  margin: 0;
+}
+.left-card {
+  width: 30%;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+.competing-team {
+  font-size: 18px;
+}
+.date {
+  font-size: 14px;
+}
+.venue {
+  font-size: 12px;
+}
+.logo {
+  width: 20%;
+}
+.right-card {
+  width: 30%;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  text-align: right;
+}
+.question {
+  font-size: 14px;
+  font-weight: 400;
+}
+.response {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+@media (min-width: 768px) {
+  .competing-team {
+    font-size: 38px;
+  }
+  .date {
+    font-size: 28px;
+  }
+  .venue {
+    font-size: 24px;
+  }
+  .question {
+    font-size: 24px;
+  }
+  .response {
+    font-size: 20px;
+  }
+}
